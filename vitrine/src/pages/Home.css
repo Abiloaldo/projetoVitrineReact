@@ -1,0 +1,10 @@
+.container {
+    background-color: #dcd2d2;
+    height: 100%;
+}
+
+.footer-container {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
