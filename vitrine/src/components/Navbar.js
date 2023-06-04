@@ -74,17 +74,17 @@ export default function Navbar() {
           <HStack>
             <Button colorScheme='green'>Carrinho</Button>
             <Menu>
-              <MenuButton as={Button} colorScheme='pink'>
-                Profile
+              <MenuButton as={Button} colorScheme="teal">
+                Perfil
               </MenuButton>
               <MenuList>
-                <MenuGroup title='Profile'>
-                  <MenuItem>My Account</MenuItem>
-                  <MenuItem>Payments </MenuItem>
+                <MenuGroup title='Perfil'>
+                  <MenuItem>Minha Conta</MenuItem>
+                  <MenuItem>Pagamentos</MenuItem>
                 </MenuGroup>
                 <MenuDivider />
                 <MenuGroup title='Help'>
-                  <MenuItem>Docs</MenuItem>
+                  <MenuItem>Documentos</MenuItem>
                   <MenuItem>FAQ</MenuItem>
                   <Button onClick={toggleColorMode}>
                     {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
@@ -133,17 +133,17 @@ export default function Navbar() {
                     {/* <HStack> */}
                       <Button>Carrinho</Button>
                       <Menu>
-                        <MenuButton as={Button} colorScheme='pink'>
-                          Profile
+                        <MenuButton as={Button} colorScheme='teal'>
+                          Perfil
                         </MenuButton>
                         <MenuList>
-                          <MenuGroup title='Profile'>
-                            <MenuItem>My Account</MenuItem>
-                            <MenuItem>Payments </MenuItem>
+                          <MenuGroup title='Perfil'>
+                            <MenuItem>Minha Conta</MenuItem>
+                            <MenuItem>Pagamentos</MenuItem>
                           </MenuGroup>
                           <MenuDivider />
                           <MenuGroup title='Help'>
-                            <MenuItem>Docs</MenuItem>
+                            <MenuItem>Termos</MenuItem>
                             <MenuItem>FAQ</MenuItem>
                             <Button onClick={toggleColorMode}>
                               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}

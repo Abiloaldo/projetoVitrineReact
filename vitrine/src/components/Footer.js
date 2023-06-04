@@ -10,7 +10,7 @@ import {
 const Footer = ({footer}) => {
     return (
         <Box bg={useColorModeValue("gray.100", "gray.900")} px={9} width={["100%"]}>
-            <Flex minWidth='max-content' alignItems='center' gap='2' justifyContent={"center"} height={"70px"}>
+            <Flex minWidth='max-content' alignItems='center' gap='2' justifyContent={"center"} height={"70px"} fontWeight={'bold'}>
                 <Text>{footer}</Text>
             </Flex>
         </Box>
